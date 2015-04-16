@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+    
+    <LinearLayout android:orientation="horizontal"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_marginTop="330dp"
+    	android:layout_gravity="center_horizontal">
+    
+		<Button android:id="@+id/FireLeft"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginRight="10dp"
+		    android:text=""
+		    android:background="@layout/fire_left" 
+			android:layout_gravity="center_horizontal"/>
+			
+		<Button android:id="@+id/FireRight"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="10dp"
+		    android:text=""
+		    android:background="@layout/fire_right" 
+			android:layout_gravity="center_horizontal"/>
+			
+	</LinearLayout>
+	
+	<TextView android:id="@+id/Caption"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="70dp"
+		android:text=""
+		android:textColor="#fbfbfb"
+		android:layout_gravity="center_horizontal"
+		/>
+    
+</LinearLayout>
